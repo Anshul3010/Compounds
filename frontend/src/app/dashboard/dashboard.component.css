@@ -1,0 +1,30 @@
+.cm-compoundList {
+  display: flex;
+  min-height: 90% !important;
+  max-height: 90%;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+
+.cm-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 92% ;
+    min-height: 92%;
+    height: 92%;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cm-compound{
+  height: 718px;
+  min-width: 99%;
+  min-height: 718px !important ;
+
+}
+/* .cm-compoundList {
+  height: 85vh;
+  padding: 0;
+  margin: 0;
+} */

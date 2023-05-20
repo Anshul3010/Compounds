@@ -1,0 +1,17 @@
+<div class="cm-container">
+  <div class="cm-compoundList">
+    <app-compound-list
+      class="cm-compound"
+      (recordCount)="handleRecordsEvent($event)"
+      [toFetchRecord]="fetch"
+      [size]="size"
+      [pageIndex]="pageIndex"
+    ></app-compound-list>
+  </div>
+  <div class="cm-paginator">
+    <app-paginator
+      (fetchRecord)="handleRecordChange($event)"
+      [totalRecords]="totalRecords"
+    ></app-paginator>
+  </div>
+</div>

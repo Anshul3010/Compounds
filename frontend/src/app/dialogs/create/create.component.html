@@ -1,0 +1,16 @@
+<div class="cm-container">
+  <h1 mat-dialog-title>Upload CSV File</h1>
+  <div class="cm-box">
+    <div class="cm-content" (click)="img.click()">+</div>
+    <div class="">
+      {{ selectedFiles ? selectedFiles[0].name : "Select File" }}
+    </div>
+  </div>
+  <input type="file" #img (change)="selectFile($event)" />
+  <div mat-dialog-actions class="cm-action">
+    <button mat-button (click)="uploadFile()" [disabled]="!selectedFiles">
+      Upload
+    </button>
+    <button mat-button mat-dialog-close>Cancel</button>
+  </div>
+</div>

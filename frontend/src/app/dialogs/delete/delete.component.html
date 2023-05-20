@@ -1,0 +1,13 @@
+<div class="cm-title">
+  <span class="cm-header">Want To Delete!</span>
+  <span class="cm-subheader">Are You Sure?</span>
+</div>
+<div class="cm-center">
+  <div class="cm-content">
+    {{ data.name }}
+  </div>
+</div>
+<div mat-dialog-actions class="buttons">
+  <button mat-button color="primary" mat-dialog-close>Cancel</button>
+  <button mat-button color="warn" (click)="deleteCompound()">OK</button>
+</div>

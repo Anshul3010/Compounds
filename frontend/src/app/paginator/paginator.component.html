@@ -1,0 +1,11 @@
+<div>
+  <mat-paginator
+    [length]="totalRecords"
+    [pageIndex]="pageIndex"
+    [pageSize]="size"
+    [pageSizeOptions]="pageSizeOptions"
+    aria-label="Select page"
+    (page)="handlePageEvent($event)"
+  >
+  </mat-paginator>
+</div>

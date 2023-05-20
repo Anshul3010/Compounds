@@ -1,0 +1,43 @@
+.cm-image {
+  /* width: 177%; */
+  /* height: 18%; */
+  /* object-fit: fill; */
+  /* overflow: hidden; */
+  background-color: white;
+  margin-right: 20px;
+  border: 2px solid black;
+}
+
+img {
+  width: 25vh;
+  height: 50vh;
+  object-fit: contain;
+}
+.cm-container {
+  display: flex;
+  height: 92%;
+  min-height: 92%;
+  min-width: fit-content;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.cm-box {width: 65%;display: flex;}
+
+.cm-name h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.cm-flexRow {
+  width: 60%;
+  max-width: 60%;
+  padding-top: 20px;
+  /* min-width: fit-content; */
+}
+
+.cm-description {
+  font-size: large;
+  margin-top: 37px;
+}

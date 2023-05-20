@@ -1,0 +1,7 @@
+.cm-endAlign {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar {
+    background-color: #bfc4c9;
+}

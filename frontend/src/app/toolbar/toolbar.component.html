@@ -1,0 +1,32 @@
+<ng-container>
+  <mat-toolbar>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+      routerLink=""
+      #tooltip="matTooltip"
+      matTooltip="Home"
+    >
+      <mat-icon>home</mat-icon>
+    </button>
+    <span style="cursor: pointer" routerLink="">Compounds</span>
+    <span class="cm-endAlign"></span>
+    <button
+      mat-icon-button
+      color="basic"
+      #tooltip="matTooltip"
+      matTooltip="Upload File"
+      (click)="openUploadDialog($event)"
+    >
+      <mat-icon>cloud_upload</mat-icon>
+    </button>
+    <button
+      mat-icon-button
+      #tooltip="matTooltip"
+      matTooltip="Anshul Srivastava"
+    >
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </mat-toolbar>
+</ng-container>
